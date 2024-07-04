@@ -56,3 +56,11 @@ body{
 #resetBtn:hover{
     background-color: hsl(221, 73%, 53%);
 }
+
+/* Add media query for smaller screens */
+@media (max-width: 600px) {
+    #display {
+        font-size: 3rem;
+        padding: 10px;
+    }
+}
